@@ -31,4 +31,4 @@ jobs:
     - name: surge installation
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ http://1-react-boot-camp.surge.sh/ --token $ {{ secrets.ACCESS_TOKEN_SURGE }}
+      run: surge ./ http://1-react-boot-camp.surge.sh/ --token ${{ secrets.ACCESS_TOKEN_SURGE }}
